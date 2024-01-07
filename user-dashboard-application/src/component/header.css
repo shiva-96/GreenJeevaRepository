@@ -1,0 +1,63 @@
+.new-user-modal {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    width: 61%;
+    /* height: 65%; */
+    z-index: 100;
+    background: rgb(233, 236, 239);
+    border: 2px solid #4091e1;
+    border-radius: 6px;
+}
+
+.add-new-user-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #4091e1;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.add-new-user-body {
+    /* position: relative;
+    top: 20px;
+    left: 40px; */
+    margin-left: 30px;
+}
+
+.add-new-user-input-field {
+    margin: 4px !important;
+}
+
+.add-new-user-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #4091e1;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    margin-top: 1rem;
+}
+
+.add-new-user-btn-add {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.25rem;
+    color: black;
+}
+
+.add-new-user-btn-close{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+    color: black;
+}
