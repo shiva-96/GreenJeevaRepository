@@ -136,7 +136,7 @@ export default function allUsers(props) {
           </div>
           <div className='add-new-user-footer'>
             <button className='add-new-user-btn-close' onClick={closeNewUserModal}>Cancel</button>
-            <button className='add-new-user-btn-add' onClick={addNewUser}>Add User</button>
+            <button className='add-new-user-btn-add' onClick={addNewUser}>Add</button>
           </div>
 
         </div>
